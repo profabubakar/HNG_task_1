@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Slack Profile</title>
+  </head>
+  <body>
+    <header>
+      <div class="texts">
+        <h3 data-testid="slackUserName">IYANDA ABUBAKAR</h3>
+        <p data-testid="myTrack">Track: <span>FRONTEND</span></p>
+      </div>
+    </header>
+    <main>
+      <div class="myphoto-and-link">
+        <img src="./simon.png" alt="profabubakar" data-testid="slackDisplayImage"/>
+        <a href="#" data-testid="githubURL">Link to my Github</a>
+      </div>
+    </main>
+    <footer>
+        <div class="footer-flex">
+          <div class="utc">
+            <p>UTC Time:</p>
+            <p class="time" data-testid="currentUTCTime">__: __: __</p>
+          </div>
+          <div class="current-day">
+            <p>Today:</p>
+            <p class="day" data-testid="currentDayOfTheWeek">------</p>
+          </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
